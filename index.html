@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer | Private Photo & Video Sorter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        :root {
+            --primary: #3498db;
+            --background-color: #111111; /* Deep Black */
+            --card-background: #1a1a1a;  /* Dark Grey */
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: #ffffff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(180deg, #111111 0%, #1a1a1a 100%);
+            border-bottom: 1px solid #333;
+        }
+
+        h1 { color: #ffffff; font-weight: 800; }
+        p { color: #aaaaaa; }
+
+        .download-btn {
+            background-color: var(--primary);
+            border: none;
+            font-weight: bold;
+            padding: 20px 40px;
+            transition: transform 0.2s ease;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            background-color: #2980b9;
+        }
+
+        .feature-box {
+            background: var(--card-background);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        #ad-placeholder {
+            border: 1px dashed #444;
+            background: #0d0d0d;
+            color: #555;
+            padding: 40px;
+            margin: 40px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            padding: 40px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="hero">
+            <h1>Stop Digging Through Messy Folders</h1>
+            <p><strong>Organizer</strong> automatically sorts your media by <strong>Time</strong> and <strong>Location</strong>—100% locally on your machine.</p>
+            <br>
+            <a href="https://drive.google.com/file/d/1I7jDNzHSGQS1_gtpwlVwzbMVTQoxFukE/view?usp=drive_link" class="download-btn" role="button">Download Organizer.zip</a>
+        </header>
+
+        <section style="margin-top: 50px;">
+            <div class="grid">
+                <div class="feature-box">
+                    <h4>🔒 Privacy First</h4>
+                    <p>No cloud uploads. Your personal memories never leave your computer.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📍 Smart Mapping</h4>
+                    <p>Automatically groups files into folders based on where you were.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📅 Timeline View</h4>
+                    <p>Creates a logical Year/Month structure for easy browsing.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="ad-placeholder">
+            <small>Sponsorship Space</small>
+        </div>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="privacy.html" class="secondary">Privacy Policy</a></li>
+                    <li><a href="about.html" class="secondary">About Project</a></li>
+                </ul>
+            </nav>
+            <p>© 2026 Organizer Software</p>
+        </footer>
+    </main>
+</body>
+</html>
